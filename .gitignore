@@ -3,12 +3,20 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.env
 .venv/
+venv/
+env/
+*.sqlite3
 
-# Node
+# VS Code
+.vscode/
+
+# Node / React
 node_modules/
 build/
 dist/
 
-# VS Code
-.vscode/
+# OS files
+.DS_Store
+Thumbs.db
