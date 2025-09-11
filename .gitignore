@@ -1,11 +1,17 @@
-# Python
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+
+# Virtual environment
 venv/
+
+# Environment files
 .env
 .env.*
+
+# Databases
 *.sqlite3
 *.db
 
@@ -18,3 +24,12 @@ build/
 .coverage
 htmlcov/
 pytest_cache/
+
+# VS Code workspace settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and temp files
+*.log
